@@ -1,0 +1,153 @@
+body{
+    margin: 0
+}
+
+
+.hero{
+    display:flex;
+    margin: 00px;
+    height: 700px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(204, 7, 7);
+    padding:0%;
+    color:aliceblue;
+    font-size:xx-large;
+}
+
+.button1 {
+    color: white;
+    background-color: rgb(253, 56, 56);
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 30px;
+    
+  }
+  .button1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .button2 {
+    color: white;
+    background-color: rgb(253, 56, 56);
+    width: 100px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    border-radius: 128px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 100px;
+  }
+  .button2:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.hero1{
+    background-color: red;
+    height: 550px;
+    
+    
+}
+
+.hero2{
+    
+}
+
+.body1{
+    display:flex;
+    height:600px;
+    background-color: rgb(204, 7, 7);
+    padding:0%;
+    text-align: left;
+    color:aliceblue;
+    
+}
+.Manufacturer{
+    margin-left: 300px;
+}
+.Manufacturerimg{
+    margin-top: 100px;
+}
+
+.Driver{
+    margin-left: 100px;
+    
+}
+
+.driverimg{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.formulae{
+    margin-left: 40px;
+    font-size: x-large;
+    
+}
+
+.formulaeimg{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+.body2{
+    display:flex;
+    height:600px;
+    
+    background-color: rgb(204, 7, 7);
+    padding:0%;
+    color:aliceblue;
+    text-align: right;
+}
+.body3{
+    display:flex;
+    height:200px;
+    
+    background-color: rgb(204, 7, 7);
+    padding:0%;
+    color:aliceblue;
+    text-align: right;
+}
+
+.body4{
+    display:flex;
+    height:600px;
+    
+    background-color: rgb(204, 7, 7);
+    padding:0%;
+    color:aliceblue;
+    text-align: right;
+}
+
+footer{
+    display:flex;
+    height:200px;
+    background-color: rgb(204, 7, 7);
+    padding:0%;
+    color:aliceblue;
+}
+
+.foot1{
+    margin-left: 600px;
+}
+
+.foot2{
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .body2{
+      height:1200px;
+      flex-wrap:wrap;
+
+    }
+ }
+
